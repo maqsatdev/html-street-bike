@@ -1,0 +1,12 @@
+text size: 
+lg: 25px
+sm: 21px
+
+navigation
+lg: 18px
+
+title
+xl - 75
+lg - 50
+md - 40
+sm - 30

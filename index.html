@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!-- <base href="/"> -->
+
+    <title>Street Bike</title>
+    <meta name="description" content="Simple Starter Description" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <link rel="icon" href="images/favicon.png" />
+    <meta property="og:image" content="images/preview.jpg" />
+
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap-reboot.min.css" />
+
+    <link rel="stylesheet" href="libs/wow/animate.min.css" />
+    <link rel="stylesheet" href="libs/hamburgers/hamburgers.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/media.css" />
+
+    <script src="libs/wow/wow.min.js" defer></script>
+    <script src="js/common.js" defer></script>
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container">
+        <div class="header__inner header__inner-flex">
+          <a
+            href="/"
+            class="logotype logotype__flex wow animate__animated animate__fadeIn"
+            data-wow-duration="2s"
+          >
+            <img
+              src="images/logotype.svg"
+              alt="logotype"
+              class="image logotype__image"
+            />
+            <div class="logotype__text">
+              <div class="logotype__label">Street<span>Bike</span></div>
+              <div class="logotype__description">
+                Мотошкола в Ростове-на-Дону
+              </div>
+            </div>
+          </a>
+          <div class="navigation">
+            <ul
+              class="main_nav wow animate__animated animate__fadeInUp"
+              data-wow-duration="2s"
+            >
+              <li class="main_nav__item main_nav__item-active">
+                <a href="#" class="main_nav__link">Главная</a>
+              </li>
+              <li class="main_nav__item">
+                <a href="#" class="main_nav__link">Мотопарк</a>
+              </li>
+              <li class="main_nav__item">
+                <a href="#" class="main_nav__link">Услуги</a>
+              </li>
+              <li class="main_nav__item">
+                <a href="#" class="main_nav__link">Контакты</a>
+              </li>
+            </ul>
+          </div>
+          <ul
+            class="inline_links wow animate__animated animate__fadeIn"
+            data-wow-duration="2s"
+          >
+            <li>
+              <a href="#">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M7.50289 2.25722L6.57441 2.62861V2.62861L7.50289 2.25722ZM8.55715 4.89288L9.48563 4.52149V4.52149L8.55715 4.89288ZM8.23664 6.91603L9.00486 7.55621V7.55621L8.23664 6.91603ZM7.66925 7.5969L8.43747 8.23708L7.66925 7.5969ZM7.79148 10.2915L7.08437 10.9986L7.79148 10.2915ZM9.70852 12.2085L10.4156 11.5014L9.70852 12.2085ZM12.4031 12.3307L11.7629 11.5625L12.4031 12.3307ZM13.084 11.7634L13.7242 12.5316L13.7242 12.5316L13.084 11.7634ZM15.1071 11.4428L14.7357 12.3713L15.1071 11.4428ZM17.7428 12.4971L18.1142 11.5686L17.7428 12.4971ZM2.89474 2H5.64593V0H2.89474V2ZM6.57441 2.62861L7.62867 5.26427L9.48563 4.52149L8.43136 1.88583L6.57441 2.62861ZM7.46842 6.27585L6.90103 6.95672L8.43747 8.23708L9.00486 7.55621L7.46842 6.27585ZM7.08437 10.9986L9.00141 12.9156L10.4156 11.5014L8.49859 9.58437L7.08437 10.9986ZM13.0433 13.099L13.7242 12.5316L12.4438 10.9951L11.7629 11.5625L13.0433 13.099ZM14.7357 12.3713L17.3714 13.4256L18.1142 11.5686L15.4785 10.5144L14.7357 12.3713ZM18 14.3541V17.1053H20V14.3541H18ZM17.1053 18C8.76286 18 2 11.2371 2 2.89474H0C0 12.3417 7.65829 20 17.1053 20V18ZM18 17.1053C18 17.5994 17.5994 18 17.1053 18V20C18.704 20 20 18.704 20 17.1053H18ZM17.3714 13.4256C17.751 13.5775 18 13.9452 18 14.3541H20C20 13.1274 19.2531 12.0242 18.1142 11.5686L17.3714 13.4256ZM13.7242 12.5316C14.0063 12.2964 14.3947 12.2349 14.7357 12.3713L15.4785 10.5144C14.4554 10.1051 13.2903 10.2897 12.4438 10.9951L13.7242 12.5316ZM9.00141 12.9156C10.0986 14.0128 11.8513 14.0923 13.0433 13.099L11.7629 11.5625C11.3656 11.8936 10.7813 11.8671 10.4156 11.5014L9.00141 12.9156ZM6.90103 6.95672C5.90771 8.1487 5.98722 9.90143 7.08437 10.9986L8.49859 9.58437C8.13287 9.21866 8.10637 8.63441 8.43747 8.23708L6.90103 6.95672ZM7.62867 5.26427C7.76509 5.6053 7.70356 5.99367 7.46842 6.27585L9.00486 7.55621C9.71029 6.7097 9.89487 5.54459 9.48563 4.52149L7.62867 5.26427ZM5.64593 2C6.05484 2 6.42255 2.24895 6.57441 2.62861L8.43136 1.88583C7.97577 0.746853 6.87265 0 5.64593 0V2ZM2.89474 0C1.29602 0 0 1.29602 0 2.89474H2C2 2.40059 2.40059 2 2.89474 2V0Z"
+                    fill="#23262B"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M7.18497 19.605L7.7207 18.7606C7.46683 18.5996 7.15397 18.5613 6.86874 18.6563L7.18497 19.605ZM3 21L2.05132 20.6838C1.93154 21.0431 2.02506 21.4393 2.29289 21.7071C2.56073 21.9749 2.95689 22.0685 3.31623 21.9487L3 21ZM4.39499 16.815L5.34367 17.1313C5.43875 16.846 5.40045 16.5332 5.23938 16.2793L4.39499 16.815ZM12 22C17.5228 22 22 17.5228 22 12H20C20 16.4183 16.4183 20 12 20V22ZM6.64923 20.4494C8.19708 21.4315 10.0337 22 12 22V20C10.4242 20 8.95764 19.5454 7.7207 18.7606L6.64923 20.4494ZM6.86874 18.6563L2.68377 20.0513L3.31623 21.9487L7.5012 20.5537L6.86874 18.6563ZM3.94868 21.3162L5.34367 17.1313L3.44631 16.4988L2.05132 20.6838L3.94868 21.3162ZM2 12C2 13.9663 2.56855 15.8029 3.5506 17.3508L5.23938 16.2793C4.45458 15.0424 4 13.5758 4 12H2ZM12 2C6.47715 2 2 6.47715 2 12H4C4 7.58172 7.58172 4 12 4V2ZM22 12C22 6.47715 17.5228 2 12 2V4C16.4183 4 20 7.58172 20 12H22Z"
+                    fill="#23262B"
+                  />
+                  <path
+                    d="M16 12H16.002V12.002H16V12Z"
+                    stroke="#23262B"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M12 12H12.002V12.002H12V12Z"
+                    stroke="#23262B"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M8 12H8.002V12.002H8V12Z"
+                    stroke="#23262B"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"
+                    stroke="#23262B"
+                    stroke-width="2"
+                    stroke-miterlimit="10"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M16 8L13.5 13.5L8 16L10.5 10.5L16 8Z"
+                    stroke="#23262B"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <button
+            class="hamburger hamburger--collapse wow animate__animated animate__fadeIn"
+            type="button"
+          >
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- HEADER END -->
+
+    <section class="section intro">
+      <div class="container">
+        <div class="intro__inner">
+          <div class="intro__content">
+            <h2
+              class="intro__title title title_md wow animate__animated animate__fadeInUp"
+              data-wow-duration="1s"
+            >
+              <span>Мотошкола “STREET BIKE”</span> в Ростове-на-Дону
+            </h2>
+            <div
+              class="intro__description text wow animate__animated animate__fadeIn"
+              data-wow-duration="1s"
+              data-wow-delay=".4s"
+            >
+              Обучение вождению мотоцикла с приобретением всем необходимых
+              навыков безопасного вождения с положительными эмоциями!
+            </div>
+            <a
+              href="#"
+              class="intro__btn btn wow animate__animated animate__bounceIn"
+              data-wow-duration="1s"
+              data-wow-delay=".6s"
+              >Узнать стоимость</a
+            >
+          </div>
+          <div class="intro__image">
+            <div
+              class="circle wow animate__animated animate__zoomIn"
+              data-wow-duration="1s"
+              data-wow-delay=".3s"
+            >
+              <img
+                src="images/moto.png"
+                alt="moto"
+                class="intro__image-abs wow animate__animated animate__fadeInRight"
+                data-wow-duration="1s"
+                data-wow-delay=".5s"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
