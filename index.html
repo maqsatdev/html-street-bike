@@ -19,10 +19,12 @@
 
     <link rel="stylesheet" href="libs/wow/animate.min.css" />
     <link rel="stylesheet" href="libs/hamburgers/hamburgers.min.css" />
+    <link rel="stylesheet" href="libs/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/media.css" />
 
     <script src="libs/wow/wow.min.js" defer></script>
+    <script src="libs/swiper/swiper-bundle.min.js" defer></script>
     <script src="js/common.js" defer></script>
   </head>
 
@@ -165,18 +167,18 @@
     </header>
     <!-- HEADER END -->
 
-    <section class="section intro">
+    <section class="section intro_sec type_block">
       <div class="container">
-        <div class="intro__inner">
-          <div class="intro__content">
+        <div class="type_block__inner">
+          <div class="type_block__content">
             <h2
-              class="intro__title title title_md wow animate__animated animate__fadeInUp"
+              class="type_block__title title title_md wow animate__animated animate__fadeInUp"
               data-wow-duration="1s"
             >
-              <span>Мотошкола “STREET BIKE”</span> в Ростове-на-Дону
+              <span>Мотошкола "STREET BIKE"</span> в Ростове-на-Дону
             </h2>
             <div
-              class="intro__description text wow animate__animated animate__fadeIn"
+              class="type_block__description text wow animate__animated animate__fadeIn"
               data-wow-duration="1s"
               data-wow-delay=".4s"
             >
@@ -185,13 +187,13 @@
             </div>
             <a
               href="#"
-              class="intro__btn btn wow animate__animated animate__bounceIn"
+              class="type_block__btn btn wow animate__animated animate__bounceIn"
               data-wow-duration="1s"
               data-wow-delay=".6s"
               >Узнать стоимость</a
             >
           </div>
-          <div class="intro__image">
+          <div class="type_block__image">
             <div
               class="circle wow animate__animated animate__zoomIn"
               data-wow-duration="1s"
@@ -200,7 +202,7 @@
               <img
                 src="images/moto.png"
                 alt="moto"
-                class="intro__image-abs wow animate__animated animate__fadeInRight"
+                class="type_block__image-abs wow animate__animated animate__fadeInRight"
                 data-wow-duration="1s"
                 data-wow-delay=".5s"
               />
@@ -209,5 +211,219 @@
         </div>
       </div>
     </section>
+
+    <!--<section class="section bike_sec">
+      <div class="container">
+        <h2 class="section__title title title_xl">Мотопарк</h2>
+        <div class="swiper bike_carousel">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide bike_carousel__slide">
+              <div class="circle">
+                <img
+                  src="images/bike1.png"
+                  alt="bike"
+                  class="bike_carousel__image"
+                />
+              </div>
+              <span class="title bike_carousel__title title_lg"
+                >YAMAHA XJ6</span
+              >
+              <div class="bike_carousel__button">
+                <a href="#" class="btn">Посмотреть все</a>
+              </div>
+            </div>
+            <div class="swiper-slide bike_carousel__slide">
+              <div class="circle">
+                <img
+                  src="images/bike2.png"
+                  alt="bike"
+                  class="bike_carousel__image"
+                />
+              </div>
+              <span class="title bike_carousel__title title_lg"
+                >YAMAHA XJ6</span
+              >
+              <div class="bike_carousel__button">
+                <a href="#" class="btn">Посмотреть все</a>
+              </div>
+            </div>
+            <div class="swiper-slide bike_carousel__slide">
+              <div class="circle">
+                <img
+                  src="images/bike3.png"
+                  alt="bike"
+                  class="bike_carousel__image"
+                />
+              </div>
+              <span class="title bike_carousel__title title_lg"
+                >YAMAHA XJ6</span
+              >
+              <div class="bike_carousel__button">
+                <a href="#" class="btn">Посмотреть все</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services_sec">
+      <div class="container">
+        <h2 class="section__title title title_xl">Услуги</h2>
+        <div class="services_items">
+          <div class="services_item">
+            <div class="services_item__image">
+              <img src="images/service_bike1.png" alt="bike" class="image" />
+            </div>
+            <div class="services_item__content">
+              <h4 class="services_item__title title_md">Мотокурс “БАЗОВЫЙ”</h4>
+              <div class="services_item__description">
+                Короткое описание курса. Для кого, зачем, какие преимущества и
+                результаты получит обучающийся.
+              </div>
+            </div>
+          </div>
+          <div class="services_item">
+            <div class="services_item__image">
+              <img src="images/service_bike2.png" alt="bike" class="image" />
+            </div>
+            <div class="services_item__content">
+              <h4 class="services_item__title title_md">Мотокурс “ПРОФИ”</h4>
+              <div class="services_item__description">
+                Короткое описание курса. Для кого, зачем, какие преимущества и
+                результаты получит обучающийся.
+              </div>
+            </div>
+          </div>
+          <div class="services_item">
+            <div class="services_item__image">
+              <img src="images/service_bike3.png" alt="bike" class="image" />
+            </div>
+            <div class="services_item__content">
+              <h4 class="services_item__title title_md">“МОТОДЖИМХАНА”</h4>
+              <div class="services_item__description">
+                Короткое описание курса. Для кого, зачем, какие преимущества и
+                результаты получит обучающийся.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section type_content pb-200">
+      <div class="container">
+        <h2 class="section__title title title_xl">Защита</h2>
+        <div class="type_content__inner">
+          <div class="intro__content">
+            <h2
+              class="intro__title title title_md wow animate__animated animate__fadeInUp"
+              data-wow-duration="1s"
+            >
+              <span>Безопасное</span> обучение
+            </h2>
+            <div
+              class="intro__description text wow animate__animated animate__fadeIn"
+              data-wow-duration="1s"
+              data-wow-delay=".4s"
+            >
+              На каждое занятии, наши ученики получают полный комплект
+              экипировки и мотоцикл, а процесс обучения происходит под полным
+              контролем грамотного инструктора.
+            </div>
+            <a
+              href="#"
+              class="intro__btn btn wow animate__animated animate__bounceIn"
+              data-wow-duration="1s"
+              data-wow-delay=".6s"
+              >Подробнее</a
+            >
+          </div>
+          <div class="intro__image">
+            <div class="swiper img_slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide img_slider__slide">
+                  <div class="circle">
+                    <img
+                      src="images/shlem.png"
+                      alt="moto"
+                      class="intro__image-abs"
+                    />
+                  </div>
+                </div>
+                <div class="swiper-slide img_slider__slide">
+                  <div class="circle">
+                    <img
+                      src="images/cerepaxa.png"
+                      alt="moto"
+                      class="intro__image-abs"
+                    />
+                  </div>
+                </div>
+                <div class="swiper-slide img_slider__slide">
+                  <div class="circle">
+                    <img
+                      src="images/perchatki.png"
+                      alt="moto"
+                      class="intro__image-abs"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section type_content">
+      <div class="container">
+        <h2 class="section__title title title_xl">Фотозона</h2>
+        <div class="type_content__inner type_content__inner-rr">
+          <div class="intro__inner">
+            <div class="intro__content">
+              <h2
+                class="intro__title title title_md wow animate__animated animate__fadeInUp"
+                data-wow-duration="1s"
+              >
+                <span>Мотошкола "STREET BIKE"</span> в Ростове-на-Дону
+              </h2>
+              <div
+                class="intro__description text wow animate__animated animate__fadeIn"
+                data-wow-duration="1s"
+                data-wow-delay=".4s"
+              >
+                Обучение вождению мотоцикла с приобретением всем необходимых
+                навыков безопасного вождения с положительными эмоциями!
+              </div>
+              <a
+                href="#"
+                class="intro__btn btn wow animate__animated animate__bounceIn"
+                data-wow-duration="1s"
+                data-wow-delay=".6s"
+                >Узнать стоимость</a
+              >
+            </div>
+            <div class="intro__image">
+              <div
+                class="circle wow animate__animated animate__zoomIn"
+                data-wow-duration="1s"
+                data-wow-delay=".3s"
+              >
+                <img
+                  src="images/moto.png"
+                  alt="moto"
+                  class="intro__image-abs wow animate__animated animate__fadeInRight"
+                  data-wow-duration="1s"
+                  data-wow-delay=".5s"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>-->
   </body>
 </html>
