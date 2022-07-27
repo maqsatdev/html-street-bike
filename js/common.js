@@ -1,4 +1,24 @@
 document.addEventListener("DOMContentLoaded", function () {
+  // Menu
+  function openMenu() {
+    const navWrap = document.querySelector(".navigation");
+    navWrap.classList.add("active");
+    document.body.style.overflowY = "hidden";
+  }
+  function closeMenu() {
+    const navWrap = document.querySelector(".navigation");
+    navWrap.classList.remove("active");
+  }
+
+  const hamburger = document.querySelector(".hamburger");
+  hamburger.addEventListener("click", function () {
+    if (!this.classList.contains("is-active")) {
+      openMenu();
+    } else {
+      closeMenu();
+    }
+  });
+
   const wow = new WOW({
     mobile: false,
     live: false,
