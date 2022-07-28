@@ -690,7 +690,7 @@
     </header>
     <!-- HEADER END -->
 
-    <section class="section intro_sec type_block">
+    <section class="section intro_sec type_block pg_bt_big">
       <div class="container">
         <div class="type_block__inner">
           <div class="type_block__content">
@@ -718,15 +718,15 @@
           </div>
           <div class="type_block__image">
             <div
-              class="circle wow animate__animated animate__zoomIn"
+              class="circle wow animate__animated animate__fadeIn"
               data-wow-duration="1s"
               data-wow-delay=".3s"
             >
               <img
                 src="images/moto.png"
                 alt="moto"
-                class="type_block__image-abs wow animate__animated animate__fadeInRight"
-                data-wow-duration="1s"
+                class="type_block__image-abs wow animate__animated animate__bounceIn"
+                data-wow-duration="1.4s"
                 data-wow-delay=".5s"
               />
             </div>
@@ -735,27 +735,24 @@
       </div>
     </section>
 
-    <!--<section class="section bike_sec">
+    <section class="section bike_sec">
       <div class="container">
-        <h2 class="section__title title title_xl">Мотопарк</h2>
-        <div class="swiper bike_carousel">
+        <h2
+          class="section__title title title_xl wow animate__animated animate__slideInUp"
+          data-wow-duration="1s"
+        >
+          Мотопарк
+        </h2>
+        <div
+          class="swiper bike_carousel wow animate__animated animate__fadeIn"
+          data-wow-duration="1s"
+        >
           <div class="swiper-wrapper">
-            <div class="swiper-slide bike_carousel__slide">
-              <div class="circle">
-                <img
-                  src="images/bike1.png"
-                  alt="bike"
-                  class="bike_carousel__image"
-                />
-              </div>
-              <span class="title bike_carousel__title title_lg"
-                >YAMAHA XJ6</span
-              >
-              <div class="bike_carousel__button">
-                <a href="#" class="btn">Посмотреть все</a>
-              </div>
-            </div>
-            <div class="swiper-slide bike_carousel__slide">
+            <div
+              class="swiper-slide bike_carousel__slide"
+              data-slide-title="BSE 190"
+              data-slide-description="Здесь должен быть какой то целевой текст который описывает класс техники и рассказывает кому и зачем подойдёт именно этот мотоцикл, коротко, ясно, простым языком, чтобы клиент понимал зачем."
+            >
               <div class="circle">
                 <img
                   src="images/bike2.png"
@@ -763,14 +760,25 @@
                   class="bike_carousel__image"
                 />
               </div>
-              <span class="title bike_carousel__title title_lg"
-                >YAMAHA XJ6</span
-              >
-              <div class="bike_carousel__button">
-                <a href="#" class="btn">Посмотреть все</a>
+            </div>
+            <div
+              class="swiper-slide bike_carousel__slide"
+              data-slide-title="YAMAHA XJ6"
+              data-slide-description="Здесь должен быть какой то целевой текст который описывает класс техники и рассказывает кому и зачем подойдёт именно этот мотоцикл, коротко, ясно, простым языком, чтобы клиент понимал зачем."
+            >
+              <div class="circle">
+                <img
+                  src="images/bike1.png"
+                  alt="bike"
+                  class="bike_carousel__image"
+                />
               </div>
             </div>
-            <div class="swiper-slide bike_carousel__slide">
+            <div
+              class="swiper-slide bike_carousel__slide"
+              data-slide-title="SYM XS 125"
+              data-slide-description="Здесь должен быть какой то целевой текст который описывает класс техники и рассказывает кому и зачем подойдёт именно этот мотоцикл, коротко, ясно, простым языком, чтобы клиент понимал зачем."
+            >
               <div class="circle">
                 <img
                   src="images/bike3.png"
@@ -778,20 +786,40 @@
                   class="bike_carousel__image"
                 />
               </div>
-              <span class="title bike_carousel__title title_lg"
-                >YAMAHA XJ6</span
-              >
-              <div class="bike_carousel__button">
-                <a href="#" class="btn">Посмотреть все</a>
+            </div>
+            <div
+              class="swiper-slide bike_carousel__slide"
+              data-slide-title="HONDA CB 125"
+              data-slide-description="Здесь должен быть какой то целевой текст который описывает класс техники и рассказывает кому и зачем подойдёт именно этот мотоцикл, коротко, ясно, простым языком, чтобы клиент понимал зачем."
+            >
+              <div class="circle">
+                <img
+                  src="images/bike4.png"
+                  alt="bike"
+                  class="bike_carousel__image"
+                />
               </div>
             </div>
           </div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <h4
+          class="title bike_sec__title title_lg wow animate__animated animate__fadeInUp"
+          data-wow-duration="1s"
+        ></h4>
+        <p class="text bike_sec__description"></p>
+        <div class="bike_sec__button">
+          <a
+            href="#"
+            class="btn wow animate__animated animate__bounceIn"
+            data-wow-duration="1s"
+            data-wow-delay=".5s"
+            >Посмотреть все</a
+          >
         </div>
       </div>
     </section>
-
+    <!--
     <section class="section services_sec">
       <div class="container">
         <h2 class="section__title title title_xl">Услуги</h2>

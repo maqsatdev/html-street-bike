@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function closeMenu() {
     const navWrap = document.querySelector(".navigation");
     navWrap.classList.remove("active");
+    document.body.style.overflowY = "";
   }
 
   const hamburger = document.querySelector(".hamburger");
@@ -19,6 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
+  // Scroll Animation
   const wow = new WOW({
     mobile: false,
     live: false,
@@ -35,16 +37,49 @@ document.addEventListener("DOMContentLoaded", function () {
   const bikeCarousel = new Swiper(".bike_carousel", {
     slidesPerView: 1,
     loop: true,
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+      renderBullet: function (index, className) {
+        return `<span class="${className}"></span>`;
+      },
+    },
+    on: {
+      init: function () {
+        const bikeCarouselTitle = document.querySelector(".bike_sec__title");
+        const bikeCarouselDescr = document.querySelector(
+          ".bike_sec__description"
+        );
+        const curSlide = document.querySelector(
+          ".bike_carousel__slide.swiper-slide-next"
+        );
+        const curSlideTitle = curSlide.getAttribute("data-slide-title");
+        const curSlideDescr = curSlide.getAttribute("data-slide-description");
+        bikeCarouselTitle.innerHTML = curSlideTitle;
+        bikeCarouselDescr.innerHTML = curSlideDescr;
+      },
     },
     breakpoints: {
+      992: {
+        slidesPerView: 3,
+        spaceBetween: 20,
+      },
       1200: {
         slidesPerView: 3,
         spaceBetween: 40,
       },
     },
+  });
+  bikeCarousel.on("slideChangeTransitionEnd", function () {
+    const bikeCarouselTitle = document.querySelector(".bike_sec__title");
+    const bikeCarouselDescr = document.querySelector(".bike_sec__description");
+    const curSlide = document.querySelector(
+      ".bike_carousel__slide.swiper-slide-next"
+    );
+    const curSlideTitle = curSlide.getAttribute("data-slide-title");
+    const curSlideDescr = curSlide.getAttribute("data-slide-description");
+    bikeCarouselTitle.innerHTML = curSlideTitle;
+    bikeCarouselDescr.innerHTML = curSlideDescr;
   });
 
   // Images Carousel
