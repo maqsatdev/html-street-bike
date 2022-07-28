@@ -63,6 +63,18 @@
   font-weight: 800;
   font-style: normal;
 }
+@font-face {
+  src: url("../fonts/BebasNeueRegular.woff2") format("woff2");
+  font-family: "bebas-st";
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  src: url("../fonts/BebasNeueBold.woff2") format("woff2");
+  font-family: "bebas-st";
+  font-weight: 700;
+  font-style: italic;
+}
 
 /* GENERAL CSS SETTINGS */
 
@@ -658,6 +670,11 @@ body {
   width: 15px;
   height: 15px;
   background: #82889a;
+  outline: none;
+}
+.swiper-pagination .swiper-pagination-bullet:active,
+.swiper-pagination .swiper-pagination-bullet:focus {
+  outline: none;
 }
 .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background: var(--gradient-green);
@@ -679,9 +696,27 @@ body {
   -o-border-radius: 20px;
   margin-bottom: 25px;
   padding: 10px 35px;
+  text-decoration: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+  overflow: hidden;
 }
 .services_item:last-child {
   margin-bottom: 0;
+}
+.services_item::after {
+  content: attr(data-num);
+  position: absolute;
+  bottom: 10px;
+  right: 25px;
+  font-size: 60px;
+  display: none;
+  color: var(--text-white);
+  opacity: 0.7;
+  font-family: "bebas-st";
+  font-weight: 700;
+  line-height: 1;
 }
 .services_item__image {
   width: 335px;
@@ -697,7 +732,6 @@ body {
   font-weight: 900;
 }
 .services_item__description {
-  font-weight: 300;
   margin-top: 5px;
 }
 /* END SERVICES ITEMS */
