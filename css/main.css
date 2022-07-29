@@ -742,7 +742,7 @@ body {
 
 .request_block {
   position: relative;
-  padding: 80px 0;
+  padding: 80px 0 120px;
   overflow: hidden;
 }
 .request_block__wrapper {
@@ -779,4 +779,110 @@ body {
 }
 .sm_block {
   display: none;
+}
+.footer {
+  position: relative;
+  padding: 20px 0 0;
+}
+.footer__inner {
+  position: relative;
+  display: grid;
+  grid-template-columns: 200px auto 175px;
+  padding-bottom: 30px;
+}
+.footer_menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footer_menu li a {
+  display: inline-flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: var(--text-white);
+  text-decoration: none;
+}
+.footer_menu li svg {
+  width: 24px;
+  margin-right: 7px;
+}
+.contacts_menu {
+  margin: 30px 0 15px;
+}
+.footer .logotype__image {
+  max-width: 35px;
+}
+.footer .logotype__label {
+  font-size: 26px;
+}
+.footer .logotype__description {
+  font-size: 9px;
+}
+.footer .logotype__flex .logotype__text {
+  margin-left: 6px;
+}
+.footer_title {
+  display: inline-block;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.creator {
+  display: flex;
+  align-items: center;
+}
+.creator__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background: var(--gradient-green);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-right: 10px;
+}
+.creator__label {
+  font-size: 14px;
+  font-weight: 300;
+}
+.creator__label a {
+  color: var(--text-white);
+  text-decoration: none;
+  font-weight: 400;
+}
+.menu_rows {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__inner .menu_rows {
+  margin-top: -10px;
+}
+.footer_column.menu_rows {
+  padding: 0 70px;
+}
+.social_menu li {
+  margin-top: 5px;
+}
+.copyright {
+  background: var(--gradient-green);
+  color: var(--text-white);
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px 20px;
+}
+.footer_info p {
+  margin: 0 0 15px 0;
+  font-size: 11px;
+}
+.footer_info .btn {
+  padding: 13px 25px;
+  font-size: 15px;
 }

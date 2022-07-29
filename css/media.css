@@ -79,13 +79,25 @@
     max-width: 90%;
   }
   .request_block {
-    padding: 40px 0;
+    padding: 40px 0 100px;
   }
   .request_block__image {
     max-width: 460px;
   }
   .request_block__content {
     max-width: 460px;
+  }
+  .footer .logotype__text {
+    display: block;
+  }
+  .footer__inner {
+    grid-template-columns: 220px auto 175px;
+  }
+  .footer_column.menu_rows {
+    padding: 0 40px;
+  }
+  .footer .menu_rows {
+    justify-content: space-around;
   }
 }
 
@@ -196,7 +208,7 @@
     flex: 0 0 250px;
   }
   .request_block {
-    padding: 30px 0;
+    padding: 30px 0 60px;
   }
   .request_block__wrapper {
     padding: 30px;
@@ -209,6 +221,22 @@
   }
   .request_block__content {
     max-width: 370px;
+  }
+  .footer .menu_rows {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .footer .menu_rows > div {
+    flex: 0 0 50%;
+  }
+  .footer .menu_rows > div:last-child {
+    flex: 1;
+  }
+  .footer_title {
+    margin-bottom: 10px;
+  }
+  .footer_column .footer_row:not(:last-child) {
+    margin-bottom: 30px;
   }
 }
 
@@ -425,6 +453,50 @@
   .sm_block.intro_sec {
     padding: 0 0 80px;
   }
+  .footer {
+    padding-top: 50px;
+  }
+  .footer__inner {
+    display: block;
+  }
+  .footer_column.menu_rows {
+    padding: 0;
+  }
+  .contacts_menu {
+    margin: 20px 0 10px;
+  }
+  .footer__inner .footer_column {
+    margin-bottom: 30px;
+  }
+  .creator__logo {
+    width: 24px;
+    height: 24px;
+    margin-right: 7px;
+  }
+  .creator__logo svg {
+    width: 12px;
+  }
+  .footer .contacts_menu li,
+  .footer .social_menu li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  .footer .logotype__description {
+    font-size: 11px;
+  }
+  .footer .logotype {
+    width: auto;
+  }
+  .footer_info {
+    text-align: center;
+  }
+  .footer_info p {
+    font-size: 16px;
+    margin: 0 0 20px 0;
+  }
+  .footer__inner {
+    padding-bottom: 0;
+  }
 }
 
 /* xs <= Small (sm) */
@@ -505,9 +577,6 @@
   }
   .header .navigation {
     padding: 0 20px 100px;
-  }
-  .request_block__wrapper {
-    padding: 30px 20px;
   }
 }
 
