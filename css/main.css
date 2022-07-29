@@ -414,6 +414,7 @@ body {
   -o-border-radius: 12px;
   border: 1px solid var(--text-white);
   overflow: hidden;
+  z-index: 1;
 }
 .btn:hover,
 .btn:active,
@@ -437,6 +438,7 @@ body {
   animation-delay: 2s;
   animation-duration: 4s;
   animation-iteration-count: infinite;
+  z-index: -1;
 }
 @keyframes move-light {
   from {
@@ -458,7 +460,9 @@ body {
   background: var(--bg-dark);
   color: var(--text-white);
 }
-.btn_dark:hover {
+.btn_dark:hover,
+.btn_dark:active,
+.btn_dark:focus {
   color: var(--text-white);
 }
 .btn_dark::before {

@@ -236,7 +236,7 @@
     margin-bottom: 10px;
   }
   .footer_column .footer_row:not(:last-child) {
-    margin-bottom: 30px;
+    margin-bottom: 25px;
   }
 }
 
@@ -430,6 +430,7 @@
     max-width: 100%;
   }
   .request_block {
+    padding: 30px 0;
     background: var(--gradient-green);
   }
   .request_block__wrapper {
@@ -451,7 +452,7 @@
     display: block;
   }
   .sm_block.intro_sec {
-    padding: 0 0 80px;
+    padding: 0 0 70px;
   }
   .footer {
     padding-top: 50px;
