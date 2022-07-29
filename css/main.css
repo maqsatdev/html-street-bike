@@ -777,3 +777,6 @@ body {
   max-width: 500px;
   height: auto;
 }
+.sm_block {
+  display: none;
+}
