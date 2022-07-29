@@ -89,8 +89,15 @@ document.addEventListener("DOMContentLoaded", function () {
     speed: 2500,
     loop: true,
     autoplay: {
-      delay: 2500,
+      delay: 3000,
       disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+      renderBullet: function (index, className) {
+        return `<span class="${className}"></span>`;
+      },
     },
   });
 });
