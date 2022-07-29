@@ -88,10 +88,6 @@ document.addEventListener("DOMContentLoaded", function () {
     effect: "fade",
     speed: 2500,
     loop: true,
-    autoplay: {
-      delay: 3000,
-      disableOnInteraction: false,
-    },
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
@@ -99,5 +95,13 @@ document.addEventListener("DOMContentLoaded", function () {
         return `<span class="${className}"></span>`;
       },
     },
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
   });
+
+  if (window.innerWidth <= 768) {
+    imagesCarousel.autoplay.stop();
+  }
 });
