@@ -21,7 +21,9 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   // Popup Modal
-  MicroModal.init();
+  MicroModal.init({
+    disableFocus: true,
+  });
 
   // Scroll Animation
   const wow = new WOW({

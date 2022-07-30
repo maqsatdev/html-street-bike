@@ -78,6 +78,7 @@
   .type_block__single .type_block__image img {
     max-width: 90%;
   }
+
   .request_block {
     padding: 40px 0 100px;
   }
@@ -262,6 +263,12 @@
   #popopForm .modal__content .form {
     flex: 0 0 100%;
     width: 100%;
+  }
+  .not_found .type_block__inner {
+    padding: 20px 0;
+  }
+  .imr {
+    font-size: 126px;
   }
 }
 
@@ -538,6 +545,10 @@
   .form_group .form_input:not(:last-child) {
     margin-bottom: 15px;
   }
+  .not_found .type_block__title,
+  .not_found .type_block__description {
+    text-align: center;
+  }
 }
 
 /* xs <= Small (sm) */
@@ -609,6 +620,9 @@
   }
   .request_block__description {
     text-align: left;
+  }
+  .imr {
+    font-size: 100px;
   }
 }
 
