@@ -99,6 +99,17 @@
   .footer .menu_rows {
     justify-content: space-around;
   }
+  #popopForm .modal__container {
+    width: 920px;
+  }
+  #popopForm .modal__content .modal__image {
+    max-width: 420px;
+    top: 0;
+  }
+  #popopForm .modal__content .form {
+    flex: 0 0 50%;
+    width: 50%;
+  }
 }
 
 /* md <= Large (lg) */
@@ -237,6 +248,20 @@
   }
   .footer_column .footer_row:not(:last-child) {
     margin-bottom: 25px;
+  }
+  .modal__container {
+    max-width: 640px;
+    padding: 30px 40px;
+  }
+  #popopForm .modal__content .modal__image {
+    display: none;
+  }
+  #popopForm .modal__container {
+    width: auto;
+  }
+  #popopForm .modal__content .form {
+    flex: 0 0 100%;
+    width: 100%;
   }
 }
 
@@ -497,6 +522,21 @@
   }
   .footer__inner {
     padding-bottom: 0;
+  }
+  .modal__overlay {
+    align-items: flex-end;
+  }
+  .modal__container {
+    max-width: 100%;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    padding: 30px;
+  }
+  .form_group .form_input:not(:last-child) {
+    margin-bottom: 15px;
   }
 }
 

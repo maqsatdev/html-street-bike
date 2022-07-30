@@ -67,7 +67,7 @@
 /* GENERAL CSS SETTINGS */
 
 ::placeholder {
-  color: #666;
+  color: var(--text-dark);
 }
 ::selection {
   background-color: var(--text-white);
@@ -889,4 +889,54 @@ body {
 .footer_info .btn {
   padding: 13px 25px;
   font-size: 15px;
+}
+.form__title {
+  margin-bottom: 10px;
+}
+.form__description {
+  font-weight: 300;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.form_input {
+  background: none;
+  border: none;
+  font-size: 16px;
+  width: 100%;
+  border-bottom: 2px solid rgba(35, 38, 43, 1);
+  padding: 10px 0;
+}
+.form_group .form_input:not(:last-child) {
+  margin-bottom: 17px;
+}
+.form_note {
+  margin: 10px 0 0 0;
+  font-size: 12px;
+  opacity: 0.7;
+}
+.form_note a {
+  color: var(--text-dark);
+}
+.form_submit {
+  width: 100%;
+}
+#popopForm .modal__container {
+  width: 970px;
+}
+#popopForm .modal__content {
+  display: flex;
+  align-items: center;
+}
+#popopForm .modal__content .form {
+  flex: 0 0 43%;
+  width: 43%;
+}
+#popopForm .modal__content .modal__image {
+  position: absolute;
+  top: -20px;
+  right: -40px;
+  max-width: 500px;
+}
+#popopForm .form_submit {
+  margin-top: 30px;
 }

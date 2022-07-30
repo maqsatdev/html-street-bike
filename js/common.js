@@ -20,6 +20,9 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
+  // Popup Modal
+  MicroModal.init();
+
   // Scroll Animation
   const wow = new WOW({
     mobile: false,
