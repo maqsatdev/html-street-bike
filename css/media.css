@@ -270,6 +270,19 @@
   .imr {
     font-size: 126px;
   }
+  .text_block p {
+    font-size: 18px;
+  }
+  .text_block p,
+  .text_block ul,
+  .text_block h1,
+  .text_block h2,
+  .text_block h3,
+  .text_block h4,
+  .text_block h5,
+  .text_block h6 {
+    margin: 0 0 20px 0;
+  }
 }
 
 /* sm <= Medium (md) */
@@ -623,6 +636,25 @@
   }
   .imr {
     font-size: 100px;
+  }
+  .text_block p {
+    font-size: 16px;
+  }
+  .text_block p,
+  .text_block ul,
+  .text_block h1,
+  .text_block h2,
+  .text_block h3,
+  .text_block h4,
+  .text_block h5,
+  .text_block h6 {
+    margin: 0 0 15px 0;
+  }
+  .text_scroll::before {
+    height: 80px;
+  }
+  .text_scroll::after {
+    height: 120px;
   }
 }
 

@@ -109,4 +109,17 @@ document.addEventListener("DOMContentLoaded", function () {
   if (window.innerWidth <= 768) {
     imagesCarousel.autoplay.stop();
   }
+
+  // Scroll Text Block
+  const textBlockWrap = document.querySelector(".text_scroll");
+  const textBlock = document.querySelector(".text_block__content");
+  let last_known_scroll_position = 0;
+  textBlock.addEventListener("scroll", function () {
+    last_known_scroll_position = textBlock.scrollTop;
+    if (last_known_scroll_position > 10) {
+      textBlockWrap.classList.add("active");
+    } else {
+      textBlockWrap.classList.remove("active");
+    }
+  });
 });

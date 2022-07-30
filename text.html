@@ -1,0 +1,1055 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!-- <base href="/"> -->
+
+    <title>Street Bike</title>
+    <meta name="description" content="Simple Starter Description" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <link rel="icon" href="images/favicon.png" />
+    <meta property="og:image" content="images/preview.jpg" />
+
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap-reboot.min.css" />
+
+    <link rel="stylesheet" href="libs/wow/animate.min.css" />
+    <link rel="stylesheet" href="libs/hamburgers/hamburgers.min.css" />
+    <link rel="stylesheet" href="libs/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/modal.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/media.css" />
+
+    <script src="libs/wow/wow.min.js" defer></script>
+    <script src="libs/micromodal/micromodal.min.js" defer></script>
+    <script src="libs/swiper/swiper-bundle.min.js" defer></script>
+    <script src="js/common.js" defer></script>
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container">
+        <div class="header__inner header__inner-flex">
+          <a
+            href="/"
+            class="logotype logotype__flex wow animate__animated animate__fadeIn"
+            data-wow-duration="2s"
+          >
+            <img
+              src="images/logotype.svg"
+              alt="logotype"
+              class="image logotype__image"
+            />
+            <div class="logotype__text">
+              <div class="logotype__label">Street<span>Bike</span></div>
+              <div class="logotype__description">
+                Мотошкола в Ростове-на-Дону
+              </div>
+            </div>
+          </a>
+          <div class="navigation">
+            <ul
+              class="main_nav wow animate__animated animate__fadeInUp"
+              data-wow-duration="2s"
+            >
+              <li class="main_nav__item main_nav__item-active">
+                <a href="#" class="main_nav__link">Главная</a>
+              </li>
+              <li class="main_nav__item">
+                <a href="#" class="main_nav__link">Мотопарк</a>
+              </li>
+              <li class="main_nav__item">
+                <a href="#" class="main_nav__link">Услуги</a>
+              </li>
+              <li class="main_nav__item">
+                <a href="#" class="main_nav__link">Контакты</a>
+              </li>
+            </ul>
+            <ul class="mobile_nav">
+              <li class="mobile_nav__item">
+                <a href="#" class="mobile_nav__link">
+                  <svg
+                    width="30"
+                    height="30"
+                    viewBox="0 0 30 30"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M15 25H14C14 25.4407 14.2885 25.8294 14.7102 25.9571C15.132 26.0848 15.5876 25.9214 15.8321 25.5547L15 25ZM16.3868 22.9199L17.2188 23.4746L16.3868 22.9199ZM25 5.25H18.75V7.25H25V5.25ZM14 10V25H16V10H14ZM27.25 20V7.5H25.25V20H27.25ZM15.8321 25.5547L17.2188 23.4746L15.5547 22.3652L14.1679 24.4453L15.8321 25.5547ZM19.5069 22.25H25V20.25H19.5069V22.25ZM17.2188 23.4746C17.7288 22.7095 18.5875 22.25 19.5069 22.25V20.25C17.9188 20.25 16.4357 21.0437 15.5547 22.3652L17.2188 23.4746ZM25.25 20C25.25 20.1381 25.1381 20.25 25 20.25V22.25C26.2426 22.25 27.25 21.2426 27.25 20H25.25ZM18.75 5.25C16.1266 5.25 14 7.37665 14 10H16C16 8.48122 17.2312 7.25 18.75 7.25V5.25ZM25 7.25C25.1381 7.25 25.25 7.36193 25.25 7.5H27.25C27.25 6.25736 26.2426 5.25 25 5.25V7.25Z"
+                      fill="url(#paint0_linear_156_428)"
+                    />
+                    <path
+                      d="M15 25L14.1679 25.5547C14.4124 25.9214 14.868 26.0848 15.2898 25.9571C15.7115 25.8294 16 25.4407 16 25H15ZM13.6132 22.9199L12.7812 23.4746L13.6132 22.9199ZM5 7.25H11.25V5.25H5V7.25ZM14 10V25H16V10H14ZM4.75 20V7.5H2.75V20H4.75ZM15.8321 24.4453L14.4453 22.3652L12.7812 23.4746L14.1679 25.5547L15.8321 24.4453ZM10.4931 20.25H5V22.25H10.4931V20.25ZM14.4453 22.3652C13.5643 21.0437 12.0812 20.25 10.4931 20.25V22.25C11.4125 22.25 12.2712 22.7095 12.7812 23.4746L14.4453 22.3652ZM2.75 20C2.75 21.2426 3.75736 22.25 5 22.25V20.25C4.86193 20.25 4.75 20.1381 4.75 20H2.75ZM11.25 7.25C12.7688 7.25 14 8.48122 14 10H16C16 7.37665 13.8734 5.25 11.25 5.25V7.25ZM5 5.25C3.75736 5.25 2.75 6.25736 2.75 7.5H4.75C4.75 7.36193 4.86193 7.25 5 7.25V5.25Z"
+                      fill="url(#paint1_linear_156_428)"
+                    />
+                    <defs>
+                      <linearGradient
+                        id="paint0_linear_156_428"
+                        x1="24.6625"
+                        y1="23.75"
+                        x2="11.1525"
+                        y2="14.7266"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#68B551" />
+                        <stop offset="1" stop-color="#3AB177" />
+                      </linearGradient>
+                      <linearGradient
+                        id="paint1_linear_156_428"
+                        x1="13.4125"
+                        y1="23.75"
+                        x2="-0.0974543"
+                        y2="14.7266"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#68B551" />
+                        <stop offset="1" stop-color="#3AB177" />
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                  <span>Услуги</span>
+                </a>
+              </li>
+              <li class="mobile_nav__item">
+                <a href="#" class="mobile_nav__link">
+                  <svg
+                    width="30"
+                    height="30"
+                    viewBox="0 0 30 30"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M2.5 25H27.5"
+                      stroke="url(#paint0_linear_156_425)"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M12.7104 10.7506L13.3787 10.0067V10.0067L12.7104 10.7506ZM18.3354 15.804L17.6671 16.5479V16.5479L18.3354 15.804ZM18.75 25.0001V26.0001C19.3023 26.0001 19.75 25.5523 19.75 25.0001H18.75ZM5.41462 15.804L6.08292 16.5479H6.08292L5.41462 15.804ZM11.0396 10.7506L11.7079 11.4944L11.7079 11.4944L11.0396 10.7506ZM12.0421 11.4944L17.6671 16.5479L19.0037 15.0602L13.3787 10.0067L12.0421 11.4944ZM17.75 16.7339V25.0001H19.75V16.7339H17.75ZM6 23.7501V16.7339H4V23.7501H6ZM6.08292 16.5479L11.7079 11.4944L10.3713 10.0067L4.74631 15.0602L6.08292 16.5479ZM18.75 24.0001H6.25V26.0001H18.75V24.0001ZM6 16.7339C6 16.6629 6.03015 16.5953 6.08292 16.5479L4.74631 15.0602C4.27131 15.4869 4 16.0954 4 16.7339H6ZM4 23.7501C4 24.9927 5.00736 26.0001 6.25 26.0001V24.0001C6.11193 24.0001 6 23.8881 6 23.7501H4ZM17.6671 16.5479C17.7199 16.5953 17.75 16.6629 17.75 16.7339H19.75C19.75 16.0954 19.4787 15.4869 19.0037 15.0601L17.6671 16.5479ZM13.3787 10.0067C12.5235 9.23834 11.2265 9.23833 10.3713 10.0067L11.7079 11.4944C11.8029 11.4091 11.947 11.4091 12.0421 11.4944L13.3787 10.0067Z"
+                      fill="url(#paint1_linear_156_425)"
+                    />
+                    <path
+                      d="M18.5938 25H23.75C24.4404 25 25 24.4404 25 23.75V6.25C25 5.55964 24.4404 5 23.75 5H10C9.30964 5 8.75 5.55964 8.75 6.25V12.5"
+                      stroke="url(#paint2_linear_156_425)"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <defs>
+                      <linearGradient
+                        id="paint0_linear_156_425"
+                        x1="23.9722"
+                        y1="25.9333"
+                        x2="23.9162"
+                        y2="24.3753"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#68B551" />
+                        <stop offset="1" stop-color="#3AB177" />
+                      </linearGradient>
+                      <linearGradient
+                        id="paint1_linear_156_425"
+                        x1="16.8097"
+                        y1="24.0287"
+                        x2="5.45895"
+                        y2="12.1041"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#68B551" />
+                        <stop offset="1" stop-color="#3AB177" />
+                      </linearGradient>
+                      <linearGradient
+                        id="paint2_linear_156_425"
+                        x1="22.7069"
+                        y1="23.6667"
+                        x2="7.18491"
+                        y2="9.62762"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#68B551" />
+                        <stop offset="1" stop-color="#3AB177" />
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                  <span>Наш мотопарк</span>
+                </a>
+              </li>
+              <li class="mobile_nav__item">
+                <a href="#" class="mobile_nav__link">
+                  <svg
+                    width="30"
+                    height="30"
+                    viewBox="0 0 30 30"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M15 26.25C21.2132 26.25 26.25 21.2132 26.25 15C26.25 8.7868 21.2132 3.75 15 3.75C8.7868 3.75 3.75 8.7868 3.75 15C3.75 21.2132 8.7868 26.25 15 26.25Z"
+                      stroke="url(#paint0_linear_156_422)"
+                      stroke-width="2"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M18.75 15L12.5 11.25V18.75L18.75 15Z"
+                      stroke="url(#paint1_linear_156_422)"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <defs>
+                      <linearGradient
+                        id="paint0_linear_156_422"
+                        x1="23.075"
+                        y1="24.75"
+                        x2="5.625"
+                        y2="5.325"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#68B551" />
+                        <stop offset="1" stop-color="#3AB177" />
+                      </linearGradient>
+                      <linearGradient
+                        id="paint1_linear_156_422"
+                        x1="17.8681"
+                        y1="18.25"
+                        x2="12.0344"
+                        y2="12.8384"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#68B551" />
+                        <stop offset="1" stop-color="#3AB177" />
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                  <span>Блог и статьи</span>
+                </a>
+              </li>
+              <li class="mobile_nav__item">
+                <a href="#" class="mobile_nav__link">
+                  <svg
+                    width="30"
+                    height="30"
+                    viewBox="0 0 30 30"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M25 5H5C4.30964 5 3.75 5.55964 3.75 6.25V23.75C3.75 24.4404 4.30964 25 5 25H25C25.6904 25 26.25 24.4404 26.25 23.75V6.25C26.25 5.55964 25.6904 5 25 5Z"
+                      stroke="url(#paint0_linear_156_419)"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M3.75 21.25L10.2875 13.6229C10.7909 13.0356 11.7016 13.0419 12.1968 13.6362L16.6237 18.9484C17.0943 19.5131 17.9481 19.5518 18.4679 19.0321L20.2625 17.2375C20.7893 16.7107 21.657 16.7588 22.1224 17.3405L26.25 22.5"
+                      stroke="url(#paint1_linear_156_419)"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M17.5 11.25C17.5 10.5596 18.0596 10 18.75 10C19.4404 10 20 10.5596 20 11.25C20 11.9404 19.4404 12.5 18.75 12.5C18.0596 12.5 17.5 11.9404 17.5 11.25Z"
+                      stroke="url(#paint2_linear_156_419)"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <defs>
+                      <linearGradient
+                        id="paint0_linear_156_419"
+                        x1="23.075"
+                        y1="23.6667"
+                        x2="7.86138"
+                        y2="4.61422"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#68B551" />
+                        <stop offset="1" stop-color="#3AB177" />
+                      </linearGradient>
+                      <linearGradient
+                        id="paint1_linear_156_419"
+                        x1="23.075"
+                        y1="21.8791"
+                        x2="18.3285"
+                        y2="9.11455"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#68B551" />
+                        <stop offset="1" stop-color="#3AB177" />
+                      </linearGradient>
+                      <linearGradient
+                        id="paint2_linear_156_419"
+                        x1="19.6472"
+                        y1="12.3333"
+                        x2="17.7083"
+                        y2="10.175"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#68B551" />
+                        <stop offset="1" stop-color="#3AB177" />
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                  <span>Галерея</span>
+                </a>
+              </li>
+              <li class="mobile_nav__item">
+                <a href="#" class="mobile_nav__link">
+                  <svg
+                    width="30"
+                    height="30"
+                    viewBox="0 0 30 30"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M15 16.25C17.0711 16.25 18.75 14.5711 18.75 12.5C18.75 10.4289 17.0711 8.75 15 8.75C12.9289 8.75 11.25 10.4289 11.25 12.5C11.25 14.5711 12.9289 16.25 15 16.25Z"
+                      stroke="url(#paint0_linear_156_416)"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M25 3.75H5C4.30964 3.75 3.75 4.30964 3.75 5V25C3.75 25.6904 4.30964 26.25 5 26.25H25C25.6904 26.25 26.25 25.6904 26.25 25V5C26.25 4.30964 25.6904 3.75 25 3.75Z"
+                      stroke="url(#paint1_linear_156_416)"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M8.75 26.25C8.75 22.7982 11.5482 20 15 20C18.4518 20 21.25 22.7982 21.25 26.25"
+                      stroke="url(#paint2_linear_156_416)"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <defs>
+                      <linearGradient
+                        id="paint0_linear_156_416"
+                        x1="17.6917"
+                        y1="15.75"
+                        x2="11.875"
+                        y2="9.275"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#68B551" />
+                        <stop offset="1" stop-color="#3AB177" />
+                      </linearGradient>
+                      <linearGradient
+                        id="paint1_linear_156_416"
+                        x1="23.075"
+                        y1="24.75"
+                        x2="5.625"
+                        y2="5.325"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#68B551" />
+                        <stop offset="1" stop-color="#3AB177" />
+                      </linearGradient>
+                      <linearGradient
+                        id="paint2_linear_156_416"
+                        x1="19.4861"
+                        y1="25.8333"
+                        x2="15.8419"
+                        y2="17.72"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#68B551" />
+                        <stop offset="1" stop-color="#3AB177" />
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                  <span>Контакты</span>
+                </a>
+              </li>
+            </ul>
+            <span class="line"></span>
+            <ul class="mobile_nav">
+              <li class="mobile_nav__item">
+                <a href="#" class="mobile_nav__link">
+                  <svg
+                    width="30"
+                    height="30"
+                    viewBox="0 0 30 30"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M11.8786 5.32152L10.7553 5.77086L11.8786 5.32152ZM13.1964 8.6161L14.3198 8.16676L13.1964 8.6161ZM12.7958 11.145L13.7253 11.9196L12.7958 11.145ZM12.0866 11.9961L13.016 12.7707L12.0866 11.9961ZM12.2394 15.3644L11.3838 16.2199V16.2199L12.2394 15.3644ZM14.6357 17.7607L15.4912 16.9051L14.6357 17.7607ZM18.0039 17.9134L17.2293 16.984L18.0039 17.9134ZM18.855 17.2042L19.6295 18.1337L19.6295 18.1337L18.855 17.2042ZM21.3839 16.8036L20.9346 17.9269L21.3839 16.8036ZM24.6785 18.1214L25.1278 16.998L24.6785 18.1214ZM6.11842 4.95988H9.55742V2.54012H6.11842V4.95988ZM10.7553 5.77086L12.0731 9.06544L14.3198 8.16676L13.002 4.87219L10.7553 5.77086ZM11.8664 10.3705L11.1571 11.2216L13.016 12.7707L13.7253 11.9196L11.8664 10.3705ZM11.3838 16.2199L13.7801 18.6162L15.4912 16.9051L13.0949 14.5088L11.3838 16.2199ZM18.7784 18.8429L19.6295 18.1337L18.0804 16.2747L17.2293 16.984L18.7784 18.8429ZM20.9346 17.9269L24.2291 19.2447L25.1278 16.998L21.8332 15.6802L20.9346 17.9269ZM25.0401 20.4426V23.8816H27.4599V20.4426H25.0401ZM23.8816 25.0401C13.4314 25.0401 4.95988 16.5686 4.95988 6.11842H2.54012C2.54012 17.905 12.095 27.4599 23.8816 27.4599V25.0401ZM25.0401 23.8816C25.0401 24.5214 24.5214 25.0401 23.8816 25.0401V27.4599C25.8578 27.4599 27.4599 25.8578 27.4599 23.8816H25.0401ZM24.2291 19.2447C24.7189 19.4407 25.0401 19.915 25.0401 20.4426H27.4599C27.4599 18.9256 26.5363 17.5614 25.1278 16.998L24.2291 19.2447ZM19.6295 18.1337C19.9935 17.8303 20.4946 17.7509 20.9346 17.9269L21.8332 15.6802C20.568 15.1741 19.1272 15.4024 18.0804 16.2747L19.6295 18.1337ZM13.7801 18.6162C15.1369 19.9729 17.3044 20.0712 18.7784 18.8429L17.2293 16.984C16.7167 17.4112 15.963 17.377 15.4912 16.9051L13.7801 18.6162ZM11.1571 11.2216C9.92875 12.6956 10.0271 14.8631 11.3838 16.2199L13.0949 14.5088C12.623 14.037 12.5889 13.2833 13.016 12.7707L11.1571 11.2216ZM12.0731 9.06544C12.2491 9.50541 12.1697 10.0065 11.8663 10.3705L13.7253 11.9196C14.5976 10.8728 14.8259 9.43196 14.3198 8.16676L12.0731 9.06544ZM9.55742 4.95988C10.085 4.95988 10.5593 5.28105 10.7553 5.77086L13.002 4.87219C12.4386 3.4637 11.0744 2.54012 9.55742 2.54012V4.95988ZM6.11842 2.54012C4.14218 2.54012 2.54012 4.14218 2.54012 6.11842H4.95988C4.95988 5.47857 5.47857 4.95988 6.11842 4.95988V2.54012Z"
+                      fill="url(#paint0_linear_156_399)"
+                    />
+                    <defs>
+                      <linearGradient
+                        id="paint0_linear_156_399"
+                        x1="23.075"
+                        y1="24.75"
+                        x2="5.625"
+                        y2="5.325"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#68B551" />
+                        <stop offset="1" stop-color="#3AB177" />
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                  <span>Позвонить нам</span>
+                </a>
+              </li>
+              <li class="mobile_nav__item marked">
+                <a href="#" class="mobile_nav__link">
+                  <svg
+                    width="30"
+                    height="30"
+                    viewBox="0 0 30 30"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M8.98121 24.5063L9.62938 23.4847C9.32223 23.2898 8.9437 23.2434 8.59861 23.3585L8.98121 24.5063ZM3.75 26.25L2.60221 25.8674C2.45729 26.3022 2.57044 26.7815 2.89449 27.1055C3.21853 27.4296 3.69785 27.5427 4.1326 27.3978L3.75 26.25ZM5.49374 21.0188L6.64153 21.4014C6.75656 21.0563 6.71022 20.6778 6.51534 20.3706L5.49374 21.0188ZM15 27.4599C21.8814 27.4599 27.4599 21.8814 27.4599 15H25.0401C25.0401 20.545 20.545 25.0401 15 25.0401V27.4599ZM8.33304 25.5279C10.2616 26.7515 12.5499 27.4599 15 27.4599V25.0401C13.0224 25.0401 11.1818 24.4696 9.62938 23.4847L8.33304 25.5279ZM8.59861 23.3585L3.3674 25.1022L4.1326 27.3978L9.36381 25.6541L8.59861 23.3585ZM4.89779 26.6326L6.64153 21.4014L4.34595 20.6362L2.60221 25.8674L4.89779 26.6326ZM2.54012 15C2.54012 17.4501 3.24852 19.7384 4.47213 21.667L6.51534 20.3706C5.53039 18.8182 4.95988 16.9776 4.95988 15H2.54012ZM15 2.54012C8.1186 2.54012 2.54012 8.1186 2.54012 15H4.95988C4.95988 9.45499 9.45499 4.95988 15 4.95988V2.54012ZM27.4599 15C27.4599 8.1186 21.8814 2.54012 15 2.54012V4.95988C20.545 4.95988 25.0401 9.45499 25.0401 15H27.4599Z"
+                      fill="url(#paint0_linear_156_85)"
+                    />
+                    <path
+                      d="M20 15H20.002V15.002H20V15Z"
+                      stroke="url(#paint1_linear_156_85)"
+                      stroke-width="2.41975"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M15 15H15.002V15.002H15V15Z"
+                      stroke="url(#paint2_linear_156_85)"
+                      stroke-width="2.41975"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M10 15H10.002V15.002H10V15Z"
+                      stroke="url(#paint3_linear_156_85)"
+                      stroke-width="2.41975"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <defs>
+                      <linearGradient
+                        id="paint0_linear_156_85"
+                        x1="23.075"
+                        y1="24.75"
+                        x2="5.625"
+                        y2="5.325"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#68B551" />
+                        <stop offset="1" stop-color="#3AB177" />
+                      </linearGradient>
+                      <linearGradient
+                        id="paint1_linear_156_85"
+                        x1="20.0017"
+                        y1="15.0019"
+                        x2="20.0002"
+                        y2="15.0001"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#68B551" />
+                        <stop offset="1" stop-color="#3AB177" />
+                      </linearGradient>
+                      <linearGradient
+                        id="paint2_linear_156_85"
+                        x1="15.0017"
+                        y1="15.0019"
+                        x2="15.0002"
+                        y2="15.0001"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#68B551" />
+                        <stop offset="1" stop-color="#3AB177" />
+                      </linearGradient>
+                      <linearGradient
+                        id="paint3_linear_156_85"
+                        x1="10.0017"
+                        y1="15.0019"
+                        x2="10.0002"
+                        y2="15.0001"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#68B551" />
+                        <stop offset="1" stop-color="#3AB177" />
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                  <span>Написать в WhatsApp</span>
+                </a>
+              </li>
+              <li class="mobile_nav__item">
+                <a href="#" class="mobile_nav__link">
+                  <svg
+                    width="30"
+                    height="30"
+                    viewBox="0 0 30 30"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M15 26.25C21.2132 26.25 26.25 21.2132 26.25 15C26.25 8.7868 21.2132 3.75 15 3.75C8.7868 3.75 3.75 8.7868 3.75 15C3.75 21.2132 8.7868 26.25 15 26.25Z"
+                      stroke="url(#paint0_linear_156_409)"
+                      stroke-width="2.41975"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M20 10L16.875 16.875L10 20L13.125 13.125L20 10Z"
+                      stroke="url(#paint1_linear_156_409)"
+                      stroke-width="2.41975"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <defs>
+                      <linearGradient
+                        id="paint0_linear_156_409"
+                        x1="23.075"
+                        y1="24.75"
+                        x2="5.625"
+                        y2="5.325"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#68B551" />
+                        <stop offset="1" stop-color="#3AB177" />
+                      </linearGradient>
+                      <linearGradient
+                        id="paint1_linear_156_409"
+                        x1="18.5889"
+                        y1="19.3333"
+                        x2="10.8333"
+                        y2="10.7"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#68B551" />
+                        <stop offset="1" stop-color="#3AB177" />
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                  <span>Где мы находимся?</span>
+                </a>
+              </li>
+              <li class="mobile_nav__item">
+                <a href="#" class="mobile_nav__link">
+                  <svg
+                    width="30"
+                    height="30"
+                    viewBox="0 0 30 30"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M25 6.25H5C4.30964 6.25 3.75 6.80964 3.75 7.5V22.5C3.75 23.1904 4.30964 23.75 5 23.75H25C25.6904 23.75 26.25 23.1904 26.25 22.5V7.5C26.25 6.80964 25.6904 6.25 25 6.25Z"
+                      stroke="url(#paint0_linear_156_413)"
+                      stroke-width="2.41975"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M3.75 7.5L15.3214 16.25L26.25 7.5"
+                      stroke="url(#paint1_linear_156_413)"
+                      stroke-width="2.41975"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <defs>
+                      <linearGradient
+                        id="paint0_linear_156_413"
+                        x1="23.075"
+                        y1="22.5833"
+                        x2="10.2574"
+                        y2="4.23836"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#68B551" />
+                        <stop offset="1" stop-color="#3AB177" />
+                      </linearGradient>
+                      <linearGradient
+                        id="paint1_linear_156_413"
+                        x1="23.075"
+                        y1="15.6667"
+                        x2="18.825"
+                        y2="3.5011"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#68B551" />
+                        <stop offset="1" stop-color="#3AB177" />
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                  <span>inbox@streetbike.ru</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <ul
+            class="inline_links wow animate__animated animate__fadeIn"
+            data-wow-duration="2s"
+          >
+            <li>
+              <a href="#">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M7.50289 2.25722L6.57441 2.62861V2.62861L7.50289 2.25722ZM8.55715 4.89288L9.48563 4.52149V4.52149L8.55715 4.89288ZM8.23664 6.91603L9.00486 7.55621V7.55621L8.23664 6.91603ZM7.66925 7.5969L8.43747 8.23708L7.66925 7.5969ZM7.79148 10.2915L7.08437 10.9986L7.79148 10.2915ZM9.70852 12.2085L10.4156 11.5014L9.70852 12.2085ZM12.4031 12.3307L11.7629 11.5625L12.4031 12.3307ZM13.084 11.7634L13.7242 12.5316L13.7242 12.5316L13.084 11.7634ZM15.1071 11.4428L14.7357 12.3713L15.1071 11.4428ZM17.7428 12.4971L18.1142 11.5686L17.7428 12.4971ZM2.89474 2H5.64593V0H2.89474V2ZM6.57441 2.62861L7.62867 5.26427L9.48563 4.52149L8.43136 1.88583L6.57441 2.62861ZM7.46842 6.27585L6.90103 6.95672L8.43747 8.23708L9.00486 7.55621L7.46842 6.27585ZM7.08437 10.9986L9.00141 12.9156L10.4156 11.5014L8.49859 9.58437L7.08437 10.9986ZM13.0433 13.099L13.7242 12.5316L12.4438 10.9951L11.7629 11.5625L13.0433 13.099ZM14.7357 12.3713L17.3714 13.4256L18.1142 11.5686L15.4785 10.5144L14.7357 12.3713ZM18 14.3541V17.1053H20V14.3541H18ZM17.1053 18C8.76286 18 2 11.2371 2 2.89474H0C0 12.3417 7.65829 20 17.1053 20V18ZM18 17.1053C18 17.5994 17.5994 18 17.1053 18V20C18.704 20 20 18.704 20 17.1053H18ZM17.3714 13.4256C17.751 13.5775 18 13.9452 18 14.3541H20C20 13.1274 19.2531 12.0242 18.1142 11.5686L17.3714 13.4256ZM13.7242 12.5316C14.0063 12.2964 14.3947 12.2349 14.7357 12.3713L15.4785 10.5144C14.4554 10.1051 13.2903 10.2897 12.4438 10.9951L13.7242 12.5316ZM9.00141 12.9156C10.0986 14.0128 11.8513 14.0923 13.0433 13.099L11.7629 11.5625C11.3656 11.8936 10.7813 11.8671 10.4156 11.5014L9.00141 12.9156ZM6.90103 6.95672C5.90771 8.1487 5.98722 9.90143 7.08437 10.9986L8.49859 9.58437C8.13287 9.21866 8.10637 8.63441 8.43747 8.23708L6.90103 6.95672ZM7.62867 5.26427C7.76509 5.6053 7.70356 5.99367 7.46842 6.27585L9.00486 7.55621C9.71029 6.7097 9.89487 5.54459 9.48563 4.52149L7.62867 5.26427ZM5.64593 2C6.05484 2 6.42255 2.24895 6.57441 2.62861L8.43136 1.88583C7.97577 0.746853 6.87265 0 5.64593 0V2ZM2.89474 0C1.29602 0 0 1.29602 0 2.89474H2C2 2.40059 2.40059 2 2.89474 2V0Z"
+                    fill="#23262B"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M7.18497 19.605L7.7207 18.7606C7.46683 18.5996 7.15397 18.5613 6.86874 18.6563L7.18497 19.605ZM3 21L2.05132 20.6838C1.93154 21.0431 2.02506 21.4393 2.29289 21.7071C2.56073 21.9749 2.95689 22.0685 3.31623 21.9487L3 21ZM4.39499 16.815L5.34367 17.1313C5.43875 16.846 5.40045 16.5332 5.23938 16.2793L4.39499 16.815ZM12 22C17.5228 22 22 17.5228 22 12H20C20 16.4183 16.4183 20 12 20V22ZM6.64923 20.4494C8.19708 21.4315 10.0337 22 12 22V20C10.4242 20 8.95764 19.5454 7.7207 18.7606L6.64923 20.4494ZM6.86874 18.6563L2.68377 20.0513L3.31623 21.9487L7.5012 20.5537L6.86874 18.6563ZM3.94868 21.3162L5.34367 17.1313L3.44631 16.4988L2.05132 20.6838L3.94868 21.3162ZM2 12C2 13.9663 2.56855 15.8029 3.5506 17.3508L5.23938 16.2793C4.45458 15.0424 4 13.5758 4 12H2ZM12 2C6.47715 2 2 6.47715 2 12H4C4 7.58172 7.58172 4 12 4V2ZM22 12C22 6.47715 17.5228 2 12 2V4C16.4183 4 20 7.58172 20 12H22Z"
+                    fill="#23262B"
+                  />
+                  <path
+                    d="M16 12H16.002V12.002H16V12Z"
+                    stroke="#23262B"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M12 12H12.002V12.002H12V12Z"
+                    stroke="#23262B"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M8 12H8.002V12.002H8V12Z"
+                    stroke="#23262B"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"
+                    stroke="#23262B"
+                    stroke-width="2"
+                    stroke-miterlimit="10"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M16 8L13.5 13.5L8 16L10.5 10.5L16 8Z"
+                    stroke="#23262B"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <button
+            class="hamburger hamburger--collapse wow animate__animated animate__fadeIn"
+            type="button"
+          >
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- HEADER END -->
+
+    <div class="text_block text_scroll">
+      <div class="container">
+        <div class="text_block__content">
+          <h4>Политика в отношении обработки персональных данных</h4>
+          <p>
+            Присоединяясь к настоящему Соглашению и оставляя свои данные на
+            сайте https://ctofeniks.ru/ (далее – Сайт), путем заполнения полей
+            формы записи на прием, формы обратной связи, или формы комментариев
+            (далее – Форма), Пользователь:
+          </p>
+          <p>
+            - подтверждает, что все указанные им данные и информация являются
+            полными, точными и достоверными;
+          </p>
+          <p>
+            - гарантирует, что при предоставлении данных и информации не
+            нарушается действующее законодательство Российской Федерации,
+            законные права и интересы третьих лиц;
+          </p>
+          <h4>Политика конфиденциальности и файлы cookie</h4>
+          <p>
+            Интернет-сайт https://streetbike.ru/ (далее — «Сайт») использует
+            файлы cookie и схожие технологии, чтобы гарантировать максимальное
+            удобство пользователям (далее — «Пользователи»), предоставляя
+            персонализированную информацию, запоминая предпочтения в области
+            маркетинга и контента Сайта, а также помогая получить нужную
+            Пользователю информацию. При использовании данного сайта, вы
+            подтверждаете свое согласие на использование файлов cookie в
+            соответствии с настоящим уведомлением в отношении данного типа
+            файлов. Если вы не согласны с тем, чтобы мы использовали данный тип
+            файлов, то вы должны соответствующим образом установить настройки
+            вашего браузера или не использовать Сайт.
+          </p>
+          <h4>Политика конфиденциальности и файлы cookie</h4>
+          <p>
+            Интернет-сайт https://streetbike.ru/ (далее — «Сайт») использует
+            файлы cookie и схожие технологии, чтобы гарантировать максимальное
+            удобство пользователям (далее — «Пользователи»), предоставляя
+            персонализированную информацию, запоминая предпочтения в области
+            маркетинга и контента Сайта, а также помогая получить нужную
+            Пользователю информацию. При использовании данного сайта, вы
+            подтверждаете свое согласие на использование файлов cookie в
+            соответствии с настоящим уведомлением в отношении данного типа
+            файлов. Если вы не согласны с тем, чтобы мы использовали данный тип
+            файлов, то вы должны соответствующим образом установить настройки
+            вашего браузера или не использовать Сайт.
+          </p>
+          <h4>Политика конфиденциальности и файлы cookie</h4>
+          <p>
+            Интернет-сайт https://streetbike.ru/ (далее — «Сайт») использует
+            файлы cookie и схожие технологии, чтобы гарантировать максимальное
+            удобство пользователям (далее — «Пользователи»), предоставляя
+            персонализированную информацию, запоминая предпочтения в области
+            маркетинга и контента Сайта, а также помогая получить нужную
+            Пользователю информацию. При использовании данного сайта, вы
+            подтверждаете свое согласие на использование файлов cookie в
+            соответствии с настоящим уведомлением в отношении данного типа
+            файлов. Если вы не согласны с тем, чтобы мы использовали данный тип
+            файлов, то вы должны соответствующим образом установить настройки
+            вашего браузера или не использовать Сайт.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer_column">
+            <a href="/" class="logotype logotype__flex">
+              <img
+                src="images/logotype.svg"
+                alt="logotype"
+                class="image logotype__image"
+              />
+              <div class="logotype__text">
+                <div class="logotype__label">Street<span>Bike</span></div>
+                <div class="logotype__description">
+                  Мотошкола в Ростове-на-Дону
+                </div>
+              </div>
+            </a>
+            <ul class="footer_menu contacts_menu">
+              <li>
+                <a href="#">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.50289 4.25722L8.57441 4.62861V4.62861L9.50289 4.25722ZM10.5572 6.89288L11.4856 6.52149V6.52149L10.5572 6.89288ZM10.2366 8.91603L11.0049 9.55621V9.55621L10.2366 8.91603ZM9.66925 9.5969L10.4375 10.2371L9.66925 9.5969ZM9.79148 12.2915L9.08437 12.9986L9.79148 12.2915ZM11.7085 14.2085L12.4156 13.5014L11.7085 14.2085ZM14.4031 14.3307L13.7629 13.5625L14.4031 14.3307ZM15.084 13.7634L15.7242 14.5316L15.7242 14.5316L15.084 13.7634ZM17.1071 13.4428L16.7357 14.3713L17.1071 13.4428ZM19.7428 14.4971L20.1142 13.5686L19.7428 14.4971ZM4.89474 4H7.64593V2H4.89474V4ZM8.57441 4.62861L9.62867 7.26427L11.4856 6.52149L10.4314 3.88583L8.57441 4.62861ZM9.46842 8.27585L8.90103 8.95672L10.4375 10.2371L11.0049 9.55621L9.46842 8.27585ZM9.08437 12.9986L11.0014 14.9156L12.4156 13.5014L10.4986 11.5844L9.08437 12.9986ZM15.0433 15.099L15.7242 14.5316L14.4438 12.9951L13.7629 13.5625L15.0433 15.099ZM16.7357 14.3713L19.3714 15.4256L20.1142 13.5686L17.4785 12.5144L16.7357 14.3713ZM20 16.3541V19.1053H22V16.3541H20ZM19.1053 20C10.7629 20 4 13.2371 4 4.89474H2C2 14.3417 9.65829 22 19.1053 22V20ZM20 19.1053C20 19.5994 19.5994 20 19.1053 20V22C20.704 22 22 20.704 22 19.1053H20ZM19.3714 15.4256C19.751 15.5775 20 15.9452 20 16.3541H22C22 15.1274 21.2531 14.0242 20.1142 13.5686L19.3714 15.4256ZM15.7242 14.5316C16.0063 14.2964 16.3947 14.2349 16.7357 14.3713L17.4785 12.5144C16.4554 12.1051 15.2903 12.2897 14.4438 12.9951L15.7242 14.5316ZM11.0014 14.9156C12.0986 16.0128 13.8513 16.0923 15.0433 15.099L13.7629 13.5625C13.3656 13.8936 12.7813 13.8671 12.4156 13.5014L11.0014 14.9156ZM8.90103 8.95672C7.90771 10.1487 7.98722 11.9014 9.08437 12.9986L10.4986 11.5844C10.1329 11.2187 10.1064 10.6344 10.4375 10.2371L8.90103 8.95672ZM9.62867 7.26427C9.76509 7.6053 9.70356 7.99367 9.46842 8.27585L11.0049 9.55621C11.7103 8.7097 11.8949 7.54459 11.4856 6.52149L9.62867 7.26427ZM7.64593 4C8.05484 4 8.42255 4.24895 8.57441 4.62861L10.4314 3.88583C9.97577 2.74685 8.87265 2 7.64593 2V4ZM4.89474 2C3.29602 2 2 3.29602 2 4.89474H4C4 4.40059 4.40059 4 4.89474 4V2Z"
+                      fill="url(#paint0_linear_156_362)"
+                    />
+                    <defs>
+                      <linearGradient
+                        id="paint0_linear_156_362"
+                        x1="18.46"
+                        y1="19.8"
+                        x2="4.5"
+                        y2="4.26"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#68B551" />
+                        <stop offset="1" stop-color="#3AB177" />
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                  <span>8 (800) 200-06-00</span>
+                </a>
+              </li>
+              <li class="email">
+                <a href="#">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M20 5H4C3.44772 5 3 5.44772 3 6V18C3 18.5523 3.44772 19 4 19H20C20.5523 19 21 18.5523 21 18V6C21 5.44772 20.5523 5 20 5Z"
+                      stroke="url(#paint0_linear_156_356)"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M3 6L12.2571 13L21 6"
+                      stroke="url(#paint1_linear_156_356)"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <defs>
+                      <linearGradient
+                        id="paint0_linear_156_356"
+                        x1="18.46"
+                        y1="18.0667"
+                        x2="8.20591"
+                        y2="3.39069"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#68B551" />
+                        <stop offset="1" stop-color="#3AB177" />
+                      </linearGradient>
+                      <linearGradient
+                        id="paint1_linear_156_356"
+                        x1="18.46"
+                        y1="12.5333"
+                        x2="15.06"
+                        y2="2.80088"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#68B551" />
+                        <stop offset="1" stop-color="#3AB177" />
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                  <span>inbox@streetbike.ru</span>
+                </a>
+              </li>
+            </ul>
+            <div class="creator">
+              <div class="creator__logo">
+                <svg
+                  width="25"
+                  height="16"
+                  viewBox="0 0 25 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 7.90231C0 9.99787 0.830818 12.0076 2.30968 13.4894C3.78855 14.9712 5.79432 15.8036 7.88575 15.8036H13.0613V6.90983L9.62414 10.3538V12.3628H7.88575C6.70537 12.3628 5.57333 11.8929 4.73867 11.0566C3.90401 10.2203 3.43511 9.08607 3.43511 7.90336C3.43511 6.72065 3.90401 5.58638 4.73867 4.75008C5.57333 3.91377 6.70537 3.44394 7.88575 3.44394H9.62935L12.8853 0.180523L13.0613 0.00415039H7.88575C5.79486 0.00415023 3.78956 0.836176 2.31079 2.31728C0.832012 3.79838 0.000828513 5.8073 0 7.90231Z"
+                    fill="#23262B"
+                  />
+                  <path
+                    d="M17.3711 8.15907L17.0212 7.80841L17.1962 7.63308L17.3711 7.45775L24.8142 0H19.9563L13.9371 6.03112H13.936V9.56692H13.9537L13.936 9.58467L20.1417 15.8026H24.9996L17.3711 8.15907Z"
+                    fill="#23262B"
+                  />
+                </svg>
+              </div>
+              <div class="creator__label">
+                Создано в <a href="#">AGK Media</a>
+              </div>
+            </div>
+          </div>
+          <div class="footer_column menu_rows">
+            <div class="footer_row">
+              <span class="footer_title">Категории</span>
+              <ul class="footer_menu">
+                <li><a href="#">Обучение</a></li>
+                <li><a href="#">Галерея</a></li>
+                <li><a href="#">Услуги</a></li>
+                <li><a href="#">Блог / Статьи</a></li>
+                <li><a href="#">Контакты</a></li>
+              </ul>
+            </div>
+            <div class="footer_row">
+              <span class="footer_title">Информация</span>
+              <ul class="footer_menu">
+                <li><a href="#">Персональные данные</a></li>
+                <li><a href="#">Форма договора</a></li>
+                <li><a href="#">Наша команда</a></li>
+                <li><a href="#">Политика</a></li>
+                <li><a href="#">О нас</a></li>
+              </ul>
+            </div>
+            <div class="footer_row">
+              <span class="footer_title">Социальные сети</span>
+              <ul class="footer_menu social_menu">
+                <li>
+                  <a href="#">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        width="20"
+                        height="19.9219"
+                        rx="4"
+                        fill="url(#paint0_linear_156_334)"
+                      />
+                      <path
+                        d="M16.7261 12.9693C16.2894 12.4245 15.7755 11.9596 15.2893 11.4659C14.8506 11.0209 14.823 10.7627 15.1756 10.2491C15.5605 9.68855 15.9743 9.14948 16.3627 8.59144C16.7252 8.06992 17.0958 7.54982 17.2865 6.92539C17.4075 6.52812 17.3005 6.35265 16.9088 6.28309C16.8413 6.27092 16.7716 6.27028 16.7029 6.27028L14.379 6.26744C14.0928 6.26301 13.9346 6.3928 13.8333 6.65664C13.6967 7.01328 13.5558 7.3696 13.393 7.71375C13.0236 8.49406 12.6111 9.24828 12.0328 9.88694C11.9053 10.0278 11.7642 10.2058 11.5511 10.1324C11.2845 10.0313 11.2059 9.57441 11.2103 9.41996L11.2081 6.63024C11.1564 6.23171 11.0714 6.05402 10.691 5.97656L8.27698 5.97704C7.95475 5.97704 7.79318 6.10651 7.62112 6.31613C7.52187 6.43722 7.49192 6.51579 7.6959 6.55594C8.09656 6.63498 8.32228 6.90468 8.38216 7.32249C8.47822 7.99009 8.47153 8.66036 8.41621 9.33064C8.39994 9.52635 8.36757 9.72159 8.29294 9.90433C8.17621 10.1916 7.98773 10.2501 7.74013 10.0733C7.51594 9.91334 7.35847 9.6876 7.20435 9.4609C6.6254 8.61009 6.16348 7.69257 5.78684 6.72841C5.67801 6.44987 5.49029 6.28103 5.20652 6.27645C4.50932 6.26491 3.81196 6.26301 3.11476 6.27708C2.69525 6.2853 2.57016 6.49713 2.741 6.89266C3.50037 8.64946 4.34562 10.3574 5.44895 11.9133C6.01544 12.7118 6.66583 13.4167 7.50606 13.9162C8.45831 14.4825 9.48337 14.6529 10.563 14.6004C11.0685 14.5757 11.2204 14.439 11.2438 13.9149C11.2596 13.5564 11.2987 13.1999 11.4687 12.8777C11.6356 12.5616 11.8884 12.5013 12.1798 12.698C12.3255 12.7965 12.4483 12.9218 12.5643 13.054C12.8489 13.3778 13.1232 13.7113 13.4185 14.0242C13.7889 14.4162 14.2278 14.6478 14.7795 14.6005L16.9153 14.601C17.2595 14.5776 17.4379 14.1388 17.2403 13.7393C17.1015 13.4595 16.9194 13.2104 16.7261 12.9693Z"
+                        fill="#23262B"
+                      />
+                      <defs>
+                        <linearGradient
+                          id="paint0_linear_156_334"
+                          x1="17.1778"
+                          y1="18.5938"
+                          x2="1.73379"
+                          y2="1.33447"
+                          gradientUnits="userSpaceOnUse"
+                        >
+                          <stop stop-color="#68B551" />
+                          <stop offset="1" stop-color="#3AB177" />
+                        </linearGradient>
+                      </defs>
+                    </svg>
+                    <span>ВКонтакте</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg
+                      width="20"
+                      height="21"
+                      viewBox="0 0 20 21"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.30459 2.30527C-0.262557 3.92672 0.0581852 5.64915 0.0581852 10.8818C0.0581852 15.2272 -0.702955 19.5834 3.28057 20.6089C4.52448 20.9276 15.5461 20.9276 16.7883 20.6073C18.4469 20.181 19.7963 18.841 19.9808 16.5044C20.0065 16.1783 20.0065 5.59122 19.98 5.25848C19.7838 2.7696 18.2458 1.33521 16.2191 1.04469C15.7546 0.977642 15.6616 0.957777 13.2784 0.953639C4.82528 0.957777 2.97229 0.582832 1.30459 2.30527Z"
+                        fill="url(#paint0_linear_156_339)"
+                      />
+                      <path
+                        d="M10.0274 3.552C7.01027 3.552 4.14519 3.28465 3.05084 6.08227C2.59881 7.23773 2.66446 8.73834 2.66446 10.887C2.66446 12.7725 2.6038 14.5446 3.05084 15.691C4.1427 18.4902 7.03104 18.2221 10.0257 18.2221C12.9149 18.2221 15.8938 18.5217 17.0015 15.691C17.4543 14.5239 17.3879 13.0457 17.3879 10.887C17.3879 8.02156 17.5466 6.17166 16.1514 4.78278C14.7388 3.3757 12.8285 3.552 10.0241 3.552H10.0274ZM9.36764 4.87383C15.6612 4.8639 16.4622 4.16698 16.0201 13.8485C15.8631 17.2727 13.2456 16.8969 10.0282 16.8969C4.16181 16.8969 3.99313 16.7297 3.99313 10.8837C3.99313 4.96984 4.45846 4.87714 9.36764 4.87217V4.87383ZM13.9578 6.09137C13.47 6.09137 13.0745 6.48535 13.0745 6.97121C13.0745 7.45707 13.47 7.85105 13.9578 7.85105C14.4455 7.85105 14.841 7.45707 14.841 6.97121C14.841 6.48535 14.4455 6.09137 13.9578 6.09137ZM10.0274 7.12019C7.93926 7.12019 6.24664 8.80704 6.24664 10.887C6.24664 12.967 7.93926 14.6531 10.0274 14.6531C12.1156 14.6531 13.8074 12.967 13.8074 10.887C13.8074 8.80704 12.1156 7.12019 10.0274 7.12019ZM10.0274 8.44202C13.2722 8.44202 13.2764 13.332 10.0274 13.332C6.78342 13.332 6.77844 8.44202 10.0274 8.44202Z"
+                        fill="#23262B"
+                      />
+                      <defs>
+                        <linearGradient
+                          id="paint0_linear_156_339"
+                          x1="17.1778"
+                          y1="19.5193"
+                          x2="1.73043"
+                          y2="2.25962"
+                          gradientUnits="userSpaceOnUse"
+                        >
+                          <stop stop-color="#68B551" />
+                          <stop offset="1" stop-color="#3AB177" />
+                        </linearGradient>
+                      </defs>
+                    </svg>
+                    <span>Instagram</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer_column">
+            <div class="footer_info">
+              <p>
+                Есть вопросы или предложения? <br />
+                Пожалуйста напишите нам!
+              </p>
+              <a href="#" class="btn">Написать нам</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">© 2022 “StreetBike”, все права защищены (с)</div>
+    </footer>
+
+    <!-- POPUP -->
+    <div class="modal micromodal-slide" id="popopForm" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+        <div
+          class="modal__container"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="modal-1-title"
+        >
+          <button
+            class="modal__close"
+            aria-label="Close modal"
+            data-micromodal-close
+          ></button>
+          <div class="modal__content">
+            <form class="form">
+              <h2 class="form__title title title_md">Оставьте заявку</h2>
+              <div class="form__description">
+                Если вам нужна помощь и персональная консультация, просто
+                оставьте заявку и мы перезвоним вам в течение 15 минут!
+              </div>
+              <div class="form_group">
+                <input
+                  type="text"
+                  placeholder="Ваше имя"
+                  class="form_input"
+                  autocomplete="off"
+                />
+                <input
+                  type="text"
+                  placeholder="Ваш номер телефона"
+                  class="form_input"
+                  autocomplete="off"
+                />
+                <input
+                  type="text"
+                  placeholder="Желаемое время звонка"
+                  class="form_input"
+                  autocomplete="off"
+                />
+                <button class="btn btn_dark form_submit">
+                  Получить консультацию
+                </button>
+                <p class="form_note">
+                  Нажимая кнопку «Получить консультацию»», Вы даете согласие на
+                  <a href="#">обработку персональных данных</a> и принимаете
+                  <a href="#">политику конфиденциальности.</a>
+                </p>
+              </div>
+            </form>
+            <img
+              src="images/form_bike.png"
+              alt="bike"
+              class="modal__image image"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
