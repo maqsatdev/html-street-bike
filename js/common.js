@@ -110,16 +110,26 @@ document.addEventListener("DOMContentLoaded", function () {
     imagesCarousel.autoplay.stop();
   }
 
-  // Scroll Text Block
-  const textBlockWrap = document.querySelector(".text_scroll");
-  const textBlock = document.querySelector(".text_block__content");
+  // Scroll Block
+  const scrollBlockWrap = document.querySelector(".scroll_block");
+  const scrollBlockContent = document.querySelector(".scroll_block__content");
   let last_known_scroll_position = 0;
-  textBlock.addEventListener("scroll", function () {
-    last_known_scroll_position = textBlock.scrollTop;
-    if (last_known_scroll_position > 10) {
-      textBlockWrap.classList.add("active");
-    } else {
-      textBlockWrap.classList.remove("active");
-    }
-  });
+  if (scrollBlockContent) {
+    scrollBlockContent.addEventListener("scroll", function () {
+      last_known_scroll_position = scrollBlockContent.scrollTop;
+      if (last_known_scroll_position > 10) {
+        scrollBlockWrap.classList.add("active");
+      } else {
+        scrollBlockWrap.classList.remove("active");
+      }
+    });
+  }
+
+  // Mask Phone Number
+  var phoneInput = document.querySelector(".form_phone");
+  if (phoneInput) {
+    IMask(phoneInput, {
+      mask: "+{7} (000) 000-00-00",
+    });
+  }
 });

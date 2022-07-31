@@ -111,6 +111,9 @@
     flex: 0 0 50%;
     width: 50%;
   }
+  .masonry_gallery__item {
+    width: calc(100% / 3 - 15px);
+  }
 }
 
 /* md <= Large (lg) */
@@ -282,6 +285,22 @@
   .text_block h5,
   .text_block h6 {
     margin: 0 0 20px 0;
+  }
+  .contacts_block__inner {
+    max-width: 100%;
+  }
+  .contacts_list li {
+    font-size: 18px;
+  }
+  .contacts_social__icon {
+    width: 46px;
+    height: 46px;
+  }
+  .contacts_social__icon svg {
+    width: 30px;
+  }
+  .contacts_block__inner .contacts_block__content {
+    padding-left: 70px;
   }
 }
 
@@ -562,6 +581,49 @@
   .not_found .type_block__description {
     text-align: center;
   }
+  .masonry_gallery__item {
+    width: calc(100% / 3 - 10px);
+  }
+  .masonry_gallery__item img {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  .contacts_block__inner {
+    flex-direction: column-reverse;
+    padding: 0;
+  }
+  .contacts_block__inner .contacts_block__content {
+    padding-left: 0;
+    margin-bottom: 60px;
+  }
+  .contacts_block__content .contacts_list {
+    margin-top: 30px;
+  }
+  .contacts_list li:not(:last-child) {
+    margin-bottom: 25px;
+  }
+  .contacts_block__content .contacts_social {
+    margin-top: 35px;
+  }
+  .contacts_social__icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+  }
+  .contacts_social__icon svg {
+    width: 20px;
+  }
+  .contacts_social__label {
+    display: block;
+    font-size: 18px;
+  }
 }
 
 /* xs <= Small (sm) */
@@ -655,6 +717,42 @@
   }
   .text_scroll::after {
     height: 120px;
+  }
+  .modal__close {
+    top: 15px;
+    right: 10px;
+  }
+  .masonry_gallery__item {
+    width: calc(100% / 2 - 8px);
+  }
+  .contacts_block__content .contacts_social li {
+    margin-bottom: 20px;
+  }
+  .contacts_social__label,
+  .contacts_list li {
+    font-size: 16px;
+  }
+  .contacts_block__inner .contacts_block__content {
+    margin-bottom: 40px;
+  }
+  .contacts_form .form_submit {
+    width: 100%;
+  }
+  @keyframes move-light {
+    from {
+      transform: translateX(-4em) skewX(-25deg);
+      -webkit-transform: translateX(-4em) skewX(-25deg);
+      -moz-transform: translateX(-4em) skewX(-25deg);
+      -ms-transform: translateX(-4em) skewX(-25deg);
+      -o-transform: translateX(-4em) skewX(-25deg);
+    }
+    to {
+      transform: translateX(35em) skewX(-25deg);
+      -webkit-transform: translateX(35em) skewX(-25deg);
+      -moz-transform: translateX(35em) skewX(-25deg);
+      -ms-transform: translateX(35em) skewX(-25deg);
+      -o-transform: translateX(35em) skewX(-25deg);
+    }
   }
 }
 
