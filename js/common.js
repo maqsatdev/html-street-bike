@@ -110,6 +110,30 @@ document.addEventListener("DOMContentLoaded", function () {
     imagesCarousel.autoplay.stop();
   }
 
+  // Slider With Thumbs
+  const thumbsSlider = new Swiper(".thumbsSlider", {
+    slidesPerView: "auto",
+    spaceBetween: 20,
+    freeMode: true,
+    watchSlidesProgress: true,
+    breakpoints: {
+      992: {
+        slidesPerView: 4,
+        spaceBetween: 20,
+      },
+      1200: {
+        slidesPerView: 4,
+        spaceBetween: 30,
+      },
+    },
+  });
+  const mainSlider = new Swiper(".main_slider", {
+    autoHeight: true,
+    thumbs: {
+      swiper: thumbsSlider,
+    },
+  });
+
   // Scroll Block
   const scrollBlockWrap = document.querySelector(".scroll_block");
   const scrollBlockContent = document.querySelector(".scroll_block__content");
